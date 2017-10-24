@@ -4,6 +4,8 @@ import { GifService } from './../core/services/gif.service';
 @Component({
   selector: 'app-battle',
   template: `      
+    <h1 class="title has-text-centered">Battle!</h1>
+
     <div class="columns" *ngIf="battleGifs">
 
       <div class="column is-half" *ngFor="let gif of battleGifs">
