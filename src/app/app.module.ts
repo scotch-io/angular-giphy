@@ -6,9 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CoreModule } from './core/core.module';
 
+import { BattleComponent } from './battle/battle.component';
+import { CreateComponent } from './create/create.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BattleComponent,
+    CreateComponent,
+    LeaderboardComponent
   ],
   imports: [
     BrowserModule,
