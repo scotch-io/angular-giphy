@@ -26,4 +26,8 @@ export class GifService {
     return this.http.post(`${this.apiUrl}`, { id, url, caption, votes: 0 });
   }
 
+  getLeaderboard() {
+    return this.http.get(`${this.apiUrl}/leaderboard`);
+  }
+
 }
